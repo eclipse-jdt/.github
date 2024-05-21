@@ -99,6 +99,17 @@ PR to the issue.
     * Rebase and Merge (retains commit history from PR useful in developing a feature)
     * Squash and Merge (All commits in PR gets squashed in to a single commit useful in bug fixes)
 
+### JDT.Core General Practices
+In JDT.Core, committers follow a few additional general practices
+ 
+Whenever there are mass cleanup commits please adhere to the following:
+ 
+1. Please have [cleanup] in the subject of the issue and pr.
+2. Please assign reviewers to these PRs [look at the code neighbourhood to “find” a committer who has changed/added code]
+3. Please restrict the mass cleanups to only M1 milestone.
+ 
+These are nothing new but just adapted to the github world.
+
 ## Eclipse Contributor Agreement
 
 Before your contribution can be accepted by the project team contributors must
