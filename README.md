@@ -2,7 +2,7 @@
 
 The Eclipse JDT™ project provides the tool plug-ins that implement a Java IDE supporting the development of any Java application, including Eclipse plug-ins. It adds a Java project nature and Java perspective to the Eclipse Workbench as well as a number of views, editors, wizards, builders, and code merging and refactoring tools. The JDT project allows Eclipse to be a development environment for itself.
 
-See also https://projects.eclipse.org/projects/eclipse.jdt and https://eclipse.org/eclipse
+See also https://projects.eclipse.org/projects/eclipse.jdt and https://eclipseide.org/
 
 ## Reporting issues
 
