@@ -101,6 +101,18 @@ setVisible rather than adjusting Z-order of the controls.
 
 Fixes https://github.com/eclipse-platform/eclipse.platform.debug/issues/132 
 ```
+
+If you used AI support in the contribution, please add something like this as the last line in the commit message:
+
+```
+Assisted-by: [Provider] [Model-Family] ([Version/ID])
+```
+
+which could look like:
+
+```
+Assisted-by: GitHub Copilot (GPT-4o-2024-08-06)
+```
   
 GitHub picks it up when this commit is merged and will auto-close the issue being mentioned. If multiple commits are used in a PR, you can still autoclose the issue by mentioning the issue in the description of the PR see https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword
 You should make sure that your PR description includes an issue reference anyway, since this will automatically link the
@@ -128,6 +140,10 @@ Whenever there are mass cleanup commits please adhere to the following:
 3. Please restrict the mass cleanups to only M1 milestone.
  
 These are nothing new but just adapted to the github world.
+
+## Using Generative AI for Contributions
+
+Please check the Eclipse Project Handbook for details: [Generative Artificial Intelligence Usage Guidelines for Eclipse Committers](https://www.eclipse.org/projects/handbook/#genai).
 
 ## Eclipse Contributor Agreement
 
