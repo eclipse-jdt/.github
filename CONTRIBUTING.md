@@ -19,7 +19,7 @@ more.
 
 * https://projects.eclipse.org/projects/eclipse.jdt/developer
 
-The project issues and source code are maintained in GitHub int the following projects: 
+The project issues and source code are maintained in GitHub in the following projects: 
 * https://github.com/eclipse-jdt/eclipse.jdt.core Java compiler, builder, etc.
 * https://github.com/eclipse-jdt/eclipse.jdt.ui Java related UI components
 * https://github.com/eclipse-jdt/eclipse.jdt.debug Java debugger implementation
@@ -36,7 +36,7 @@ Create an account at GitHub.com using the same email address used for eclipse ac
 In case you already have an Eclipse account add the email to your GitHub account using https://github.com/settings/emails
 
 Add the GitHub account id to your eclipse account under social media links section. 
-If you are already a commiter in any of the projects in the GitHub org, a mail containing invite to join 
+If you are already a committer in any of the projects in the GitHub org, a mail containing invite to join 
 that project's GitHub organisation will be sent within 2 hours. You need to accept the invite 
 to gain committer status in the GitHub organisation
 
@@ -54,11 +54,11 @@ Here are the steps:
 
 1. If it is a new issue, create it in the appropriate repository (e.g. [here](https://github.com/eclipse-jdt/eclipse.jdt.core/issues) for compiler and [here](https://github.com/eclipse-jdt/eclipse.jdt.ui/issues) for UI)
 2. Create a [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) of the repository in your GitHub account. 
-3. Clone the original Eclispe project repo to your local machine
+3. Clone the original Eclipse project repo to your local machine
 4. Add your fork as a remote on the local repo.
 5. Create a **dedicated** local branch for your changes (like "issue_123")
 6. Develop your changes and commit them to your newly created branch, **do not commit on master!**
-7. For compiler fixes **regression test is mandatory**, for other fixed highly recommended.
+7. For compiler fixes **regression test is mandatory**, for other fixes highly recommended.
 8. Before opening PR, fetch latest changes from master and rebase your branch on latest master commit.
 9. Open a pull request.  
 
@@ -73,7 +73,7 @@ press "New pull request"
 push the branch to your fork. This will update the PR with those changes. Generally, you should add 
 additional changes in separate PRs. It makes it easier to review just those new changes.
 
-Sometimes a PRs cannot be automatically merged into master. In this case, a reviewer might ask you to rebase your 
+Sometimes a PR cannot be automatically merged into master. In this case, a reviewer might ask you to rebase your 
 PR branch and force-push it to your fork again.
 
 ### Commit message recommendations
@@ -126,7 +126,7 @@ PR to the issue.
     2. Comment: you neither approve nor reject the PR
     3. Request changes: changes need to be made before the PR can be merged. This blocks the merging of the PR.
 3. Before approving and merging a PR make sure it passes any relevant PR checks (i.e. the ECA check CI build succeeds)
-4. Once the PR is approved there two options to merge. You can select either of these based on the requirement the following are recommendations only. Need to select based on the requirement
+4. Once the PR is approved there are two options to merge. You can select either of these based on the requirement the following are recommendations only. Need to select based on the requirement
     * Rebase and Merge (retains commit history from PR useful in developing a feature)
     * Squash and Merge (All commits in PR gets squashed in to a single commit useful in bug fixes)
 
